@@ -1,0 +1,40 @@
+/* Footer.css */
+
+.footer {
+    /* Styles for the footer container */
+    top: 400px;
+    text-align: left;
+     position: relative; left: 20px; bottom: 0;   
+    color: #fff;
+    
+}
+.social-media{
+    align-items: flex-start;
+}
+
+.contact-info, .social-media, .legal-links {
+    /* Styles for each section of the footer */
+    margin-bottom: 0px;
+}
+
+.social-media ul, .legal-links ul {
+    /* Styles for the list of social media links and legal links */
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li, .legal-links ul li {
+    /* Styles for each item in the list */
+    margin-bottom: 0px;
+}
+
+.social-media ul li a, .legal-links ul li a {
+    /* Styles for the links */
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media ul li a:hover, .legal-links ul li a:hover {
+    /* Styles for the links on hover */
+    text-decoration: underline;
+}
